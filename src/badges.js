@@ -1279,4 +1279,6 @@
         update(event.currentSlide, options, languages);
       }
   );
+
+  return module;
 });
