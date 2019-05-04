@@ -1,4 +1,11 @@
-var RevealBadges = window.RevealBadges || (function() {
+(function (window, document, factory) {
+	if (typeof exports === 'object') {
+	  module.exports = factory;
+	}
+	else {
+	  window.RevealBadges = factory(window, document, window.Reveal);
+	}
+  })(window, document, function (window, document, Reveal) {
   var languages = {
     "1c": {
       bg: '#814CCC',
@@ -1272,4 +1279,4 @@ var RevealBadges = window.RevealBadges || (function() {
         update(event.currentSlide, options, languages);
       }
   );
-})();
+});
