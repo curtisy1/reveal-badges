@@ -4,6 +4,10 @@
   "description": "Add badges to blocks in a reveal.js presentation",
   "homepage": "http://thomas.weinert.info/reveal-badges/",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/curtisy1/reveal-badges.git"
+  },
   "contributors": [
     "Thomas Weinert",
     "Alexander Oberländer"
